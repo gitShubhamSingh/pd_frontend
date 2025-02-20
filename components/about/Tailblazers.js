@@ -19,7 +19,7 @@ const Tailblazers = () => {
             </Box>
 
             <Typography variant='h3' component="p" sx={{mt:10}}>We are Visionaries.</Typography>
-            <Typography variant='p' component="p" sx={{mt:4, textAlign:'center', pl:{xs:5, md:10},pr:{xs:5, md:10}}} >We’re not just another company — and that’s intentional. At Paradise, we call our community of employees, clients, and partners "Visionaries." Visionaries across the real estate sector collaborate, innovate, and support one another to learn, grow, and achieve success together.</Typography>
+            <Typography variant='p' component="p" sx={{mt:4, textAlign:'center', pl:{xs:5, md:10},pr:{xs:5, md:10}}} >We&#39re not just another company — and that&#39s intentional. At Paradise, we call our community of employees, clients, and partners &#39Visionaries.&#39 Visionaries across the real estate sector collaborate, innovate, and support one another to learn, grow, and achieve success together.</Typography>
 
             <Button variant='contained' size='large' sx={{textTransform:'none', mt:10}} component={Link} href="/contact">Contact Us Today !</Button>
         </Container>

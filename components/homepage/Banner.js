@@ -181,7 +181,7 @@ function TabPanel(props) {
                   </Typography>
               </Grid2>
             </Grid2>
-            <Typography variant='h5' component="p" sx={{mb:4, textAlign:"center", mt:2, mb:10}}>Let's find your dream Home.</Typography>
+            <Typography variant='h5' component="p" sx={{mb:4, textAlign:"center", mt:2, mb:10}}>Let&#39s find your dream Home.</Typography>
                  
             {/* Search Bar */}
             <center>
