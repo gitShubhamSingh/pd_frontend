@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 // theme
 import theme from '@/app/Theme'
-import question from '@/assets/about/Question.png'
+import question from '@/assets/about/question.png'
 import Image from 'next/image'
 
 const Question = () => {
