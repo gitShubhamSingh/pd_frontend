@@ -4,11 +4,9 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import CardActionArea from '@mui/material/CardActionArea';
-import { Container, Box, List, ListItem, ListItemAvatar, ListItemText, IconButton, Grid2, CardActions, Button } from '@mui/material';
-import Banner1 from '@/assets/banner/banner1.jpg'
+
+import { Box, IconButton, Grid2, CardActions, Button } from '@mui/material';
 import Link from 'next/link'
-import Grid from '@mui/material/Grid2';
 import {ThemeProvider} from '@mui/material';
 
 
@@ -20,15 +18,8 @@ import CallIcon from '@mui/icons-material/Call';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShareIcon from '@mui/icons-material/Share';
 
-import KingBedIcon from '@mui/icons-material/KingBed';
-import ShowerIcon from '@mui/icons-material/Shower';
-import LocalParkingIcon from '@mui/icons-material/LocalParking';
-import SquareFootIcon from '@mui/icons-material/SquareFoot';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
-import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
-import PlayArrowIcon from '@mui/icons-material/PlayArrow';
-import SkipNextIcon from '@mui/icons-material/SkipNext';
 import theme from '@/app/Theme'
 
 const MAX_LENGTH = 150; // Adjust based on your UI preference
@@ -53,8 +44,7 @@ const ProductCard = ({item}) => {
 
   return (
     <ThemeProvider theme={theme}>
-    {/* <Container>      */}
-        {/* <Link href={`/properties/${item.id}`}> */}
+    
             <Card sx={{ boxShadow:5,p:2,border:2, display:'flex', position:"relative"}}
                  onMouseEnter={() => setHovered(true)}
                  onMouseLeave={() => setHovered(false)}
@@ -126,7 +116,7 @@ const ProductCard = ({item}) => {
                         </CardContent>
                         <CardActions>
                             <Button variant='contained' sx={{textTransform:'none',p:1, bgcolor:theme.palette.success.main}} size='small'><WhatsAppIcon sx={{mr:1}}/>WhatsApp</Button>
-                            <Button variant='contained' sx={{textTransform:'none'}} size='small'><CallIcon sx={{mr:1}}/>Get Call Back</Button>
+                            <Button variant='contained' sx={{textTransform:'none',p:1}} size='small'><CallIcon sx={{mr:1}}/>Get Call Back</Button>
                         </CardActions>
                     </Grid2>
                 </Grid2>
@@ -136,8 +126,7 @@ const ProductCard = ({item}) => {
 
                   
             </Card>
-        {/* </Link> */}
-    {/* </Container> */}
+        
     </ThemeProvider>
   )
 }

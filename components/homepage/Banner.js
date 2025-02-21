@@ -66,17 +66,21 @@ const Banner = () => {
   ]
 
   const top100Films = [
-    { title: 'The Shawshank Redemption', year: 1994 },
-    { title: 'The Godfather', year: 1972 },
-    { title: 'The Godfather: Part II', year: 1974 },
-    { title: 'The Dark Knight', year: 2008 },
-    { title: '12 Angry Men', year: 1957 },
-    { title: "Schindler's List", year: 1993 },
-    { title: 'Pulp Fiction', year: 1994 },
-    { title: 'American History X', year: 1998 },
-    { title: 'Interstellar', year: 2014 },
-    { title: 'Casablanca', year: 1942 },
-    { title: 'City Lights', year: 1931 },
+    { title: 'Santacruz East', id: 1 },
+    { title: 'Santacruz West', id: 2 },
+    { title: 'Andheri', id: 3 },
+    { title: 'Bandra', id: 4 },
+    { title: 'Borivali', id: 5 },
+    { title: 'Dahisar', id: 6 },
+    { title: 'Goregaon', id: 7 },
+    { title: "Jogeshwari", id: 8 },
+    { title: 'Juhu', id: 9 },
+    { title: 'Kandivali West', id: 10 },
+    { title: 'Kandiwali East', id: 12 },
+    { title: 'Khar', id: 13 },
+    { title: 'Malad', id: 14 },
+    { title: 'Vile Parle', id: 15 },
+    
   ]
 
   const searchType = [
@@ -181,7 +185,7 @@ function TabPanel(props) {
                   </Typography>
               </Grid2>
             </Grid2>
-            <Typography variant='h5' component="p" sx={{mb:4, textAlign:"center", mt:2, mb:10}}>Let&#39s find your dream Home.</Typography>
+            <Typography variant='h5' component="p" sx={{mb:4, textAlign:"center", mt:2, mb:10}}>Let &apos;s find your dream Home.</Typography>
                  
             {/* Search Bar */}
             <center>

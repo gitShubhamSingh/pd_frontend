@@ -17,20 +17,20 @@ const Banner = () => {
     <ThemeProvider theme={theme}>
         <Container maxWidth="md" sx={{textAlign:"center", mt:10}}>
             <Typography variant='h1' component="h1" sx={{color:theme.palette.primary.main}}>
-                We&#39re Paradise
+                We&apos;re Paradise
             </Typography>
             <Typography variant='h3' component="h3" sx={{mt:2}}>
                 the #1 Real Estate Solutions Provider
             </Typography>
             
             <Typography variant='p' component="p" sx={{mt:5}}>
-                Since our establishment, we&#39ve had a singular focus — empowering the real estate sector with innovative solutions that streamline operations and enhance client satisfaction. Our expertise enables property professionals to manage portfolios efficiently, close deals faster, and deliver exceptional services. It&#39s no surprise, then, that countless real estate businesses trust Paradise to drive their success and growth.
+                Since our establishment, we&apos;ve had a singular focus — empowering the real estate sector with innovative solutions that streamline operations and enhance client satisfaction. Our expertise enables property professionals to manage portfolios efficiently, close deals faster, and deliver exceptional services. It&#39s no surprise, then, that countless real estate businesses trust Paradise to drive their success and growth.
             </Typography>
             {/* <Brightness7Icon sx={{mt:10, fontSize:200, color:theme.palette.secondary.light}}/> */}
             <Typography  sx={{mt:10}}></Typography>
             <Image src={Logo.src} width="100" height="100" alt="paradise_logo"></Image>
             <Typography variant='h3' component="h3" sx={{mt:5}}>
-                We&#39re innovating our way into customers hearts.
+                We&apos;re innovating our way into customers hearts.
             </Typography>
 
         </Container>
